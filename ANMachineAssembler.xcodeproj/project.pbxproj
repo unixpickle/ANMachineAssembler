@@ -1,0 +1,236 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAAB41A9152A1E8A00552A26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAAB41A8152A1E8A00552A26 /* Foundation.framework */; };
+		FAAB41AC152A1E8A00552A26 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAAB41AB152A1E8A00552A26 /* main.m */; };
+		FAAB41B0152A1E8A00552A26 /* ANMachineAssembler.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = FAAB41AF152A1E8A00552A26 /* ANMachineAssembler.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FAAB41A2152A1E8A00552A26 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				FAAB41B0152A1E8A00552A26 /* ANMachineAssembler.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FAAB41A4152A1E8A00552A26 /* ANMachineAssembler */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ANMachineAssembler; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAAB41A8152A1E8A00552A26 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FAAB41AB152A1E8A00552A26 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAAB41AE152A1E8A00552A26 /* ANMachineAssembler-Prefix.pch */ = {isa = PBXFileReference; path = "ANMachineAssembler-Prefix.pch"; sourceTree = "<group>"; };
+		FAAB41AF152A1E8A00552A26 /* ANMachineAssembler.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = ANMachineAssembler.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAAB41A1152A1E8A00552A26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAAB41A9152A1E8A00552A26 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAAB4199152A1E8900552A26 = {
+			isa = PBXGroup;
+			children = (
+				FAAB41AA152A1E8A00552A26 /* ANMachineAssembler */,
+				FAAB41A7152A1E8A00552A26 /* Frameworks */,
+				FAAB41A5152A1E8A00552A26 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAAB41A5152A1E8A00552A26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAAB41A4152A1E8A00552A26 /* ANMachineAssembler */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAAB41A7152A1E8A00552A26 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAAB41A8152A1E8A00552A26 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAAB41AA152A1E8A00552A26 /* ANMachineAssembler */ = {
+			isa = PBXGroup;
+			children = (
+				FAAB41AB152A1E8A00552A26 /* main.m */,
+				FAAB41AF152A1E8A00552A26 /* ANMachineAssembler.1 */,
+				FAAB41AD152A1E8A00552A26 /* Supporting Files */,
+			);
+			path = ANMachineAssembler;
+			sourceTree = "<group>";
+		};
+		FAAB41AD152A1E8A00552A26 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAAB41AE152A1E8A00552A26 /* ANMachineAssembler-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAAB41A3152A1E8A00552A26 /* ANMachineAssembler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAAB41B3152A1E8A00552A26 /* Build configuration list for PBXNativeTarget "ANMachineAssembler" */;
+			buildPhases = (
+				FAAB41A0152A1E8A00552A26 /* Sources */,
+				FAAB41A1152A1E8A00552A26 /* Frameworks */,
+				FAAB41A2152A1E8A00552A26 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ANMachineAssembler;
+			productName = ANMachineAssembler;
+			productReference = FAAB41A4152A1E8A00552A26 /* ANMachineAssembler */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAAB419B152A1E8900552A26 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = FAAB419E152A1E8900552A26 /* Build configuration list for PBXProject "ANMachineAssembler" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FAAB4199152A1E8900552A26;
+			productRefGroup = FAAB41A5152A1E8A00552A26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAAB41A3152A1E8A00552A26 /* ANMachineAssembler */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAAB41A0152A1E8A00552A26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAAB41AC152A1E8A00552A26 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FAAB41B1152A1E8A00552A26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FAAB41B2152A1E8A00552A26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FAAB41B4152A1E8A00552A26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ANMachineAssembler/ANMachineAssembler-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FAAB41B5152A1E8A00552A26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ANMachineAssembler/ANMachineAssembler-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAAB419E152A1E8900552A26 /* Build configuration list for PBXProject "ANMachineAssembler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAAB41B1152A1E8A00552A26 /* Debug */,
+				FAAB41B2152A1E8A00552A26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAAB41B3152A1E8A00552A26 /* Build configuration list for PBXNativeTarget "ANMachineAssembler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAAB41B4152A1E8A00552A26 /* Debug */,
+				FAAB41B5152A1E8A00552A26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAAB419B152A1E8900552A26 /* Project object */;
+}
