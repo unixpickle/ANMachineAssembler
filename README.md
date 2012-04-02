@@ -12,9 +12,9 @@ Here is a sample Hello World program:
 	set %11, $1
 	set %12, $0
 	:printNext
-	readreg %2, %1
-	print %2
-	cmp %2, %12
+	readreg %10, %1
+	print %10
+	cmp %10, %12
 	je end
 	add %1, %11
 	ajmp printNext
