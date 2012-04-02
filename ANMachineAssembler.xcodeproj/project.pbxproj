@@ -10,6 +10,13 @@
 		FAAB41A9152A1E8A00552A26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAAB41A8152A1E8A00552A26 /* Foundation.framework */; };
 		FAAB41AC152A1E8A00552A26 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAAB41AB152A1E8A00552A26 /* main.m */; };
 		FAAB41B0152A1E8A00552A26 /* ANMachineAssembler.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = FAAB41AF152A1E8A00552A26 /* ANMachineAssembler.1 */; };
+		FAAB41B9152A1EC100552A26 /* ANAsmTokenizer.m in Sources */ = {isa = PBXBuildFile; fileRef = FAAB41B8152A1EC100552A26 /* ANAsmTokenizer.m */; };
+		FAAB41BC152A1ECC00552A26 /* ANAsmToken.m in Sources */ = {isa = PBXBuildFile; fileRef = FAAB41BB152A1ECC00552A26 /* ANAsmToken.m */; };
+		FAAB41CE152A31B600552A26 /* ANAsmInstruction.m in Sources */ = {isa = PBXBuildFile; fileRef = FAAB41CD152A31B600552A26 /* ANAsmInstruction.m */; };
+		FAAB41D5152A322200552A26 /* ANAsmNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = FAAB41D4152A322200552A26 /* ANAsmNumber.m */; };
+		FAAB41D8152A324700552A26 /* ANAsmRegister.m in Sources */ = {isa = PBXBuildFile; fileRef = FAAB41D7152A324700552A26 /* ANAsmRegister.m */; };
+		FADAA673152A3B2A00F3504A /* ANAsmProgram.m in Sources */ = {isa = PBXBuildFile; fileRef = FADAA672152A3B2A00F3504A /* ANAsmProgram.m */; };
+		FADAA677152A3B8D00F3504A /* ANAsmSymbol.m in Sources */ = {isa = PBXBuildFile; fileRef = FADAA676152A3B8D00F3504A /* ANAsmSymbol.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,8 +36,23 @@
 		FAAB41A4152A1E8A00552A26 /* ANMachineAssembler */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ANMachineAssembler; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAAB41A8152A1E8A00552A26 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FAAB41AB152A1E8A00552A26 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FAAB41AE152A1E8A00552A26 /* ANMachineAssembler-Prefix.pch */ = {isa = PBXFileReference; path = "ANMachineAssembler-Prefix.pch"; sourceTree = "<group>"; };
+		FAAB41AE152A1E8A00552A26 /* ANMachineAssembler-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ANMachineAssembler-Prefix.pch"; sourceTree = "<group>"; };
 		FAAB41AF152A1E8A00552A26 /* ANMachineAssembler.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = ANMachineAssembler.1; sourceTree = "<group>"; };
+		FAAB41B7152A1EC100552A26 /* ANAsmTokenizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANAsmTokenizer.h; sourceTree = "<group>"; };
+		FAAB41B8152A1EC100552A26 /* ANAsmTokenizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANAsmTokenizer.m; sourceTree = "<group>"; };
+		FAAB41BA152A1ECC00552A26 /* ANAsmToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANAsmToken.h; sourceTree = "<group>"; };
+		FAAB41BB152A1ECC00552A26 /* ANAsmToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANAsmToken.m; sourceTree = "<group>"; };
+		FAAB41CC152A31B600552A26 /* ANAsmInstruction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANAsmInstruction.h; sourceTree = "<group>"; };
+		FAAB41CD152A31B600552A26 /* ANAsmInstruction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANAsmInstruction.m; sourceTree = "<group>"; };
+		FAAB41D2152A31F400552A26 /* ANAsmOperand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ANAsmOperand.h; sourceTree = "<group>"; };
+		FAAB41D3152A322200552A26 /* ANAsmNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANAsmNumber.h; sourceTree = "<group>"; };
+		FAAB41D4152A322200552A26 /* ANAsmNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANAsmNumber.m; sourceTree = "<group>"; };
+		FAAB41D6152A324700552A26 /* ANAsmRegister.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANAsmRegister.h; sourceTree = "<group>"; };
+		FAAB41D7152A324700552A26 /* ANAsmRegister.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANAsmRegister.m; sourceTree = "<group>"; };
+		FADAA671152A3B2A00F3504A /* ANAsmProgram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANAsmProgram.h; sourceTree = "<group>"; };
+		FADAA672152A3B2A00F3504A /* ANAsmProgram.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANAsmProgram.m; sourceTree = "<group>"; };
+		FADAA675152A3B8D00F3504A /* ANAsmSymbol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANAsmSymbol.h; sourceTree = "<group>"; };
+		FADAA676152A3B8D00F3504A /* ANAsmSymbol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANAsmSymbol.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +70,8 @@
 		FAAB4199152A1E8900552A26 = {
 			isa = PBXGroup;
 			children = (
+				FAAB41C7152A317B00552A26 /* Assembler */,
+				FAAB41B6152A1EA200552A26 /* Tokenizer */,
 				FAAB41AA152A1E8A00552A26 /* ANMachineAssembler */,
 				FAAB41A7152A1E8A00552A26 /* Frameworks */,
 				FAAB41A5152A1E8A00552A26 /* Products */,
@@ -86,6 +110,37 @@
 				FAAB41AE152A1E8A00552A26 /* ANMachineAssembler-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAAB41B6152A1EA200552A26 /* Tokenizer */ = {
+			isa = PBXGroup;
+			children = (
+				FAAB41B7152A1EC100552A26 /* ANAsmTokenizer.h */,
+				FAAB41B8152A1EC100552A26 /* ANAsmTokenizer.m */,
+				FAAB41BA152A1ECC00552A26 /* ANAsmToken.h */,
+				FAAB41BB152A1ECC00552A26 /* ANAsmToken.m */,
+			);
+			name = Tokenizer;
+			path = ANMachineAssembler/Tokenizer;
+			sourceTree = "<group>";
+		};
+		FAAB41C7152A317B00552A26 /* Assembler */ = {
+			isa = PBXGroup;
+			children = (
+				FADAA671152A3B2A00F3504A /* ANAsmProgram.h */,
+				FADAA672152A3B2A00F3504A /* ANAsmProgram.m */,
+				FAAB41CC152A31B600552A26 /* ANAsmInstruction.h */,
+				FAAB41CD152A31B600552A26 /* ANAsmInstruction.m */,
+				FAAB41D2152A31F400552A26 /* ANAsmOperand.h */,
+				FAAB41D3152A322200552A26 /* ANAsmNumber.h */,
+				FAAB41D4152A322200552A26 /* ANAsmNumber.m */,
+				FAAB41D6152A324700552A26 /* ANAsmRegister.h */,
+				FAAB41D7152A324700552A26 /* ANAsmRegister.m */,
+				FADAA675152A3B8D00F3504A /* ANAsmSymbol.h */,
+				FADAA676152A3B8D00F3504A /* ANAsmSymbol.m */,
+			);
+			name = Assembler;
+			path = ANMachineAssembler/Assembler;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +194,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAAB41AC152A1E8A00552A26 /* main.m in Sources */,
+				FAAB41B9152A1EC100552A26 /* ANAsmTokenizer.m in Sources */,
+				FAAB41BC152A1ECC00552A26 /* ANAsmToken.m in Sources */,
+				FAAB41CE152A31B600552A26 /* ANAsmInstruction.m in Sources */,
+				FAAB41D5152A322200552A26 /* ANAsmNumber.m in Sources */,
+				FAAB41D8152A324700552A26 /* ANAsmRegister.m in Sources */,
+				FADAA673152A3B2A00F3504A /* ANAsmProgram.m in Sources */,
+				FADAA677152A3B8D00F3504A /* ANAsmSymbol.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,6 +291,7 @@
 				FAAB41B5152A1E8A00552A26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
